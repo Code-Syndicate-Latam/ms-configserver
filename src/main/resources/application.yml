@@ -1,0 +1,16 @@
+server:
+  port: 8888
+spring:
+  profile:
+    active: native
+  application:
+    name: ms-configserver
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main
+          uri: https://github.com/Softtecnology/service-configuration.git
+          clone-on-start: true
+          username: juancho001
+          password: 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

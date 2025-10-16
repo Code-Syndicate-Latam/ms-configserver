@@ -1,5 +1,5 @@
 services:
-  ms-eureka:
+  ms-configserver:
     image: ms-configserver
     container_name: ms-configserver
     ports:

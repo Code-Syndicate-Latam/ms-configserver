@@ -1,6 +1,6 @@
 services:
   ms-eureka:
     image: ms-configserver
-    container_name: ms-eureka-container
+    container_name: ms-configserver
     ports:
       - "8888:8888" 
